@@ -40,11 +40,6 @@ const Update = () => {
 
   }
 
-  
-  
-
-
-
 
   return ( 
     <UpdateStyled>
@@ -59,6 +54,8 @@ const Update = () => {
            </span> 
            
           </h1>
+
+          <h4 className="updateArea__Left--SubTitle">make sure to refresh the page after adding the qoute to the database</h4>
 
 
           <div className="updateArea__Left__container">
