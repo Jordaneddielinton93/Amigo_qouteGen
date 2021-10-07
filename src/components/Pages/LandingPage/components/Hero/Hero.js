@@ -35,7 +35,7 @@ const Hero = () => {
 
 
         <button onClick={getNewQoute}
-        className="HeroCont--Button">Show New Qoute</button>
+        className="HeroCont--Button">Show New Quote Via Firebase </button>
       </div>
     </HeroStyled>
    );
@@ -47,30 +47,3 @@ export default Hero;
 
 
 
-// const collections = collection(db, "users");
-
-// let [data,setdata]=useState([])
-
-
-
-
-// async function addtoFire() {
-//   const response = await getDocs(collections);
-//   setdata(response.docs.map((data)=>{
-//     return {...data.data()}
-//   }))
-//   return {
-//   };
-// }
-
-
-
-// return (
-//   <div className="App">
-//    <button onClick={addtoFire}>addtoFirebase</button>
-//    <h1>{data.map((item)=>{
-//      return item.city
-//    })}</h1>
-//   </div>
-// );
-// }

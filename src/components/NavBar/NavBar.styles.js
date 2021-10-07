@@ -6,7 +6,7 @@ export const NavBarStyled = styled.header`
   display:flex;
   position: absolute;
   top: 0;
-
+  z-index:3;
   & .Nav{
     display: flex;
     width: 1200px;

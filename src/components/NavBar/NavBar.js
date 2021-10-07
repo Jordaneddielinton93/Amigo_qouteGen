@@ -12,15 +12,15 @@ const NavBar = () => {
     <NavBarStyled>
       <nav className="Nav">
         <div className="Nav_IMGContainer">
-          {amigoLogo}
+         <Link to="/">{amigoLogo}</Link>
         </div>
 
         <ul className="Nav_Desk-list">
-          <li className="Nav_Desk-list--li"><Link to="/">Services</Link></li>
-          <li className="Nav_Desk-list--li"><Link to="/">Platfrom</Link></li>
-          <li className="Nav_Desk-list--li"><Link to="/">Resources</Link></li>
-          <li className="Nav_Desk-list--li"><Link to="/">Contact</Link></li>
-          <li className="Nav_Desk-list--li"><Link to="/">Podcast</Link></li>
+          <li className="Nav_Desk-list--li"><Link to="/Apis">Api's</Link></li>
+          <li className="Nav_Desk-list--li"><Link to="/Apis">Platfrom</Link></li>
+          <li className="Nav_Desk-list--li"><Link to="/Apis">Resources</Link></li>
+          <li className="Nav_Desk-list--li"><Link to="/Apis">Contact</Link></li>
+          <li className="Nav_Desk-list--li"><Link to="/Apis">Podcast</Link></li>
         </ul>
 
         <div>
@@ -49,11 +49,11 @@ const NavBar = () => {
           style={showMobileNavBar?{display: "flex"}:{display:"none"}
         }>
 
-            <li className="Nav_Mobi-list--li"><Link to="/">Services</Link></li>
-            <li className="Nav_Mobi-list--li"><Link to="/">Platfrom</Link></li>
-            <li className="Nav_Mobi-list--li"><Link to="/">Resources</Link></li>
-            <li className="Nav_Mobi-list--li"><Link to="/">Contact</Link></li>
-            <li className="Nav_Mobi-list--li"><Link to="/">Podcast</Link></li>
+            <li className="Nav_Mobi-list--li"><Link to="/Apis">Api's</Link></li>
+            <li className="Nav_Mobi-list--li"><Link to="/Apis">Platfrom</Link></li>
+            <li className="Nav_Mobi-list--li"><Link to="/Apis">Resources</Link></li>
+            <li className="Nav_Mobi-list--li"><Link to="/Apis">Contact</Link></li>
+            <li className="Nav_Mobi-list--li"><Link to="/Apis">Podcast</Link></li>
           </ul>
 
         </div>

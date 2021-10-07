@@ -7,6 +7,7 @@ import {
 import './App.css';
 
 import LandingPage from '../Pages/LandingPage/LandingPage';
+import ApiPage from "../Pages/ApiPage/ApiPage";
 
 function App() {
  
@@ -15,8 +16,8 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={LandingPage}/>
+          <Route path="/Apis" component={ApiPage}/>
           {/* <Route component={Land}/>
-          <Route component={Land}/>
           <Route component={Land}/> */}
 
         </Switch>
