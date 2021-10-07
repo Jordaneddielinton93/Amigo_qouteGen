@@ -23,18 +23,18 @@ const Update = () => {
   },[])
 
 
-  let newQouteValue = useRef()
+  let newQuoteValue = useRef()
 
   let [showUserTheError,setShowUserTheError] = useState("none")
 
-  async function AddNewQoute(){
+  async function AddNewQuote(){
 
-    if(newQouteValue.current.value.length<3){
+    if(newQuoteValue.current.value.length<3){
       setShowUserTheError("flex")
     }else{
       setShowUserTheError("none")
-      await addDoc(collections, {qoutes:newQouteValue.current.value})
-      newQouteValue.current.value=""
+      await addDoc(collections, {qoutes:newQuoteValue.current.value})
+      newQuoteValue.current.value=""
     }
 
 
@@ -66,19 +66,17 @@ const Update = () => {
             <p style={{display:showUserTheError}}
             >length has to be longer then 3 characters</p>
 
-            <input ref={newQouteValue}
+            <input ref={newQuoteValue}
             placeholder="Type more then 3 characters and then refresh"
             className="updateArea__Left__container--input"
             type="text" />
 
-            <button onClick={AddNewQoute}
+            <button onClick={AddNewQuote}
             className="updateArea__Left__container--buttom"
             >Add New Qoute</button>
 
           </div>
-          
-
-
+        
 
         </section>
 
@@ -94,6 +92,7 @@ const Update = () => {
             </ul>
           </aside>
         </section>
+
       </div>
     </UpdateStyled>
    );
