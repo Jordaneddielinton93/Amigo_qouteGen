@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import ListItems from "./components/ListItems";
 import { amigoLogo } from "./Images/AmigoLogo";
 import { NavBarStyled } from "./NavBar.styles";
 
@@ -16,11 +17,11 @@ const NavBar = () => {
         </div>
 
         <ul className="Nav_Desk-list">
-          <li className="Nav_Desk-list--li"><Link to="/Apis">Api's</Link></li>
-          <li className="Nav_Desk-list--li"><Link to="/Apis">Platfrom</Link></li>
-          <li className="Nav_Desk-list--li"><Link to="/Apis">Resources</Link></li>
-          <li className="Nav_Desk-list--li"><Link to="/Apis">Contact</Link></li>
-          <li className="Nav_Desk-list--li"><Link to="/Apis">Podcast</Link></li>
+          <ListItems ClassNameUsed={"Desk"} text="Api's"/>
+          <ListItems ClassNameUsed={"Desk"} text="Platfrom"/>
+          <ListItems ClassNameUsed={"Desk"} text="Resources"/>
+          <ListItems ClassNameUsed={"Desk"} text="Contact"/>
+          <ListItems ClassNameUsed={"Desk"} text="Podcast"/>
         </ul>
 
         <div>
@@ -49,11 +50,11 @@ const NavBar = () => {
           style={showMobileNavBar?{display: "flex"}:{display:"none"}
         }>
 
-            <li className="Nav_Mobi-list--li"><Link to="/Apis">Api's</Link></li>
-            <li className="Nav_Mobi-list--li"><Link to="/Apis">Platfrom</Link></li>
-            <li className="Nav_Mobi-list--li"><Link to="/Apis">Resources</Link></li>
-            <li className="Nav_Mobi-list--li"><Link to="/Apis">Contact</Link></li>
-            <li className="Nav_Mobi-list--li"><Link to="/Apis">Podcast</Link></li>
+          <ListItems ClassNameUsed={"Mobi"} text="Api's"/>
+          <ListItems ClassNameUsed={"Mobi"} text="Platfrom"/>
+          <ListItems ClassNameUsed={"Mobi"} text="Resources"/>
+          <ListItems ClassNameUsed={"Mobi"} text="Contact"/>
+          <ListItems ClassNameUsed={"Mobi"} text="Podcast"/>
           </ul>
 
         </div>

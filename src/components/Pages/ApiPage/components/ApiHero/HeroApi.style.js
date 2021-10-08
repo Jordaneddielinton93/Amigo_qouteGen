@@ -46,6 +46,13 @@ position: relative;
 		height: 25vh;
 		width: 100%;
 		}
+		&--inputContainer{
+			width: 100%;
+			&--Uinput{
+				width: 90%;
+			}
+		}
+
 		& .HeroApi__left__container--button{
 			background-color: white;
 			padding: 2px;
@@ -54,8 +61,20 @@ position: relative;
 			color: black;
 			width: 120px;
 			height: 50px;
+			cursor: pointer;
+			&:hover{
+				box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+				background-color:#2FCDC9 ;
+			}
 		}
 	}
+
+
+
+
+
+
+
 	&__right{
 		display: flex;
 		justify-content: center;
