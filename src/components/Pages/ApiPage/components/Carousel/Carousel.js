@@ -41,13 +41,13 @@ const Carousel = () => {
           “Life is what happens when you’re busy making other plans.”
           </p>
           <p className="CarouselConatiner__Slider--Quotes">
-            If you can dream it <br />, you can do it..
+          “You only live once, but if you do it right, once is enough.”
           </p>
           <p className="CarouselConatiner__Slider--Quotes">
-            If you can dream it <br />, you can do it..
+          “Many of life’s failures are people who did not realize how close they were to success when they gave up.”
           </p>
           <p className="CarouselConatiner__Slider--Quotes">
-            If you can dream it <br />, you can do it..
+          “Money and success don’t change people; they merely amplify what is already there.”
           </p>
           
 
