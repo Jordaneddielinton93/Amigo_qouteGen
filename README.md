@@ -1,5 +1,5 @@
 # Quote Generator  
-
+# Link to the site https://amigo-quotes.netlify.app/
 ## About The Project
 <img src="./src/components/images/aboutProject.png">
 
