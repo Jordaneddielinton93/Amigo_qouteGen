@@ -16,7 +16,7 @@ const Carousel = () => {
   },[posCounter])
 
   let {textArr,setTextArr}= useFetch("https://type.fit/api/quotes")
-console.log(textArr)
+
 
   return ( 
     <CarouselStyle>
