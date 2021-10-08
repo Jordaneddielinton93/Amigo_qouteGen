@@ -10,7 +10,6 @@ const Carousel = () => {
     setTimeout(()=>{
 
       posCounter<-1200?setPosCounter(0):setPosCounter(posCounter-300)
-      console.log(posCounter)
     },3000)
 
 
