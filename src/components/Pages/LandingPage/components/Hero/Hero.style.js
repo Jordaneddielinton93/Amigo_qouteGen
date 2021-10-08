@@ -36,6 +36,7 @@ align-items: center;
 		@media only screen and (max-width: 900px) {
 			font-size: 10vw;
 		}
+		
 	}
 	&--SubTitle{
 		font-size: 1.6rem;
@@ -46,14 +47,25 @@ align-items: center;
 		}
 	}
 	&--Button{
+		align-self: center;
 		margin-top: 20px;
 		background-color: transparent;
 		border: none;
-		font-size: 1.2rem;
+		font-size: 1.5rem;
 		font-weight: 900;
 		color: white;
 		cursor: pointer;
+		border: thin ridge white;
+		border-radius: 10px;
+		width: 80%;
+		&:hover{
+			transition: 1s;
+			background-color:#2FCDC9 ;
+			box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+		}
 	}
 }
+
+
 
 `

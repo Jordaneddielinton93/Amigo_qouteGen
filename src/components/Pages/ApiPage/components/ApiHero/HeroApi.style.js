@@ -33,6 +33,7 @@ position: relative;
 	}
 	@media only screen and (max-width: 900px) {
 		flex-direction: column;
+		top: 100px;
 	}
 	&__left{
 		width: 50%;
@@ -42,7 +43,7 @@ position: relative;
 		align-items: center;
 		flex-direction: column;
 		@media only screen and (max-width: 900px) {
-		height: 30vh;
+		height: 25vh;
 		width: 100%;
 		}
 		& .HeroApi__left__container--button{
@@ -60,7 +61,8 @@ position: relative;
 		justify-content: center;
 		height: 60vh;
 		width: 50%;
-
+		max-height: 40vh;
+		align-self: center;
 		@media only screen and (max-width: 900px) {
 		width:100%;
 	}
@@ -68,6 +70,7 @@ position: relative;
 			width: 95%;
 			height: 95%;
 			overflow-y: scroll;
+			
 			& .APIqoute{
 				font-size:0.8rem;
 				padding:30px 0px;
@@ -80,9 +83,30 @@ position: relative;
 					color: white;
 				}
 			}
+
+
+			
 		}
 		
 	}
 }
+& .HeroApi__right__List::-webkit-scrollbar-track
+		{
+			box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+			border-radius: 10px;
+			background-color: #F5F5F5;
+		}
+		& .HeroApi__right__List::-webkit-scrollbar
+		{
+			width: 12px;
+			background-color: #F5F5F5;
+		}
+
+		& .HeroApi__right__List::-webkit-scrollbar-thumb
+		{
+			border-radius: 10px;
+			-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+			background-color: #2FCDC9;
+		}
 
 `
