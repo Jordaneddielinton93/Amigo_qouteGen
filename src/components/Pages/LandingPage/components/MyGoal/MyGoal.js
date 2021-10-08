@@ -9,8 +9,8 @@ const MyGoal = () => {
       <main className="mainGoal">
 
         <GoalIcons title="On Time" icon={<BsClockHistory/>} />
-        <GoalIcons title="On Time" icon={<IoHammerOutline/>} />
-        <GoalIcons title="On Time" icon={<AiOutlineUnlock/>} />
+        <GoalIcons title="Hard Working" icon={<IoHammerOutline/>} />
+        <GoalIcons title="Focused" icon={<AiOutlineUnlock/>} />
         
       </main>
     </MyGoalStyled>
