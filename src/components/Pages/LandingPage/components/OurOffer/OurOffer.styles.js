@@ -42,6 +42,7 @@ export const OurOfferStyled = styled.div`
       height: 50px;
       background-color: white;
       font-weight: 700;
+      cursor: pointer;
       &:hover{
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
       }
