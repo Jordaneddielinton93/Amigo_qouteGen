@@ -1,6 +1,7 @@
 import { collection, getDocs,addDoc } from 'firebase/firestore/lite';
 import { useEffect, useRef, useState } from "react";
 import { db } from '../../../../Firebase/Firebase';
+import SpanGreenText from '../../../../SpanGreenText/SpanGreenText';
 import { UpdateStyled } from "./Update.style";
 
 const Update = () => {
@@ -60,10 +61,7 @@ const Update = () => {
 
           <h4 className="updateArea__Left--SubTitle">Why Not Add your own Quote?</h4>
 
-          <h1 className="updateArea__Left--Title">The way that Quotes change is <span className="span">
-              <span className="changing">changing </span> 
-              <span className="greenline"></span>
-           </span> 
+          <h1 className="updateArea__Left--Title">The way that Quotes change is <SpanGreenText spanText="Changing"/> 
            
           </h1>
 
