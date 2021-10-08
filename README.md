@@ -3,9 +3,11 @@
 ## About The Project
 <img src="./src/components/images/aboutProject.png">
 
-### As my secound interview i had to build a quote generator useing either local storage /session storage or a database then be able to add a users own quote to it.   
+### With a great Talk from Amigo they ask me for a secound interview workplan.
+### As my secound interview for Amigo I had to build a quote generator using either local storage / session storage or a database, then be able to add a users own quote to it.   
 ### I decided to go with both database storage and local storage.
-### one used for saving users data and the other for using an api since i did not want to save api data to my storage i decided to make two pages of content for them
+### one used for saving users data and the other for using an api since i did not want to save api data to my limited storage I decided to make two pages of content for them.
+### roughly spend most of my day on the landing page with great success to each component, pretty much having most of the setup memorised untill i hit firebase but it was a great learning curve and remind that software is allways upgrading so you never stop learing.
 <hr>
 <br>
 Technologies Used
