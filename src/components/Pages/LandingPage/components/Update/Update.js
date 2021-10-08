@@ -9,7 +9,7 @@ const Update = () => {
 
   let [data,setdata]=useState([{qoutes:["Success Drives",<br/>, "Transformation"]}])
 
-
+  let [updateDb,setUpdateDb] = useState(0)
   useEffect(()=>{
     async function getListOfQouteS() {
       const response = await getDocs(collections);
@@ -20,9 +20,11 @@ const Update = () => {
       }))
     }
     getListOfQouteS()
-  },[])
+  },[updateDb])
 
 
+
+  
   let newQuoteValue = useRef()
 
   let [showUserTheError,setShowUserTheError] = useState("none")
@@ -35,6 +37,7 @@ const Update = () => {
       setShowUserTheError("none")
       await addDoc(collections, {qoutes:newQuoteValue.current.value})
       newQuoteValue.current.value=""
+      setUpdateDb(updateDb+1)
     }
 
 
@@ -55,7 +58,7 @@ const Update = () => {
            
           </h1>
 
-          <h4 className="updateArea__Left--SubTitle">make sure to refresh the page after adding the quote to the database</h4>
+          <h4 className="updateArea__Left--SubTitle">Why not check the Api Quotes page too on the navbar</h4>
 
 
           <div className="updateArea__Left__container">

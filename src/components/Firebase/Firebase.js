@@ -6,12 +6,12 @@ import "firebase/auth"
 require('firebase/analytics')
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDpeQT4d-8Dp1L-k0LAMHQDgyYut5YEE5w",
-  authDomain: "qoutegen.firebaseapp.com",
-  projectId: "qoutegen",
-  storageBucket: "qoutegen.appspot.com",
-  messagingSenderId: "843112792015",
-  appId: "1:843112792015:web:374042161fe2ee1b7e1cba"
+  apiKey: "AIzaSyCWfOElMwRPJNuI4GVEGpAnILISpLidLdM",
+  authDomain: "randomquotegenerator-ddee7.firebaseapp.com",
+  projectId: "randomquotegenerator-ddee7",
+  storageBucket: "randomquotegenerator-ddee7.appspot.com",
+  messagingSenderId: "467833903840",
+  appId: "1:467833903840:web:21e37d090654d603e88e85"
 };
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
