@@ -1,6 +1,7 @@
 import NavBar from "../../NavBar/NavBar";
 import { ApiPageStyled } from "./ApiPage.styles";
 import HeroApi from "./components/ApiHero/HeroApi";
+import Carousel from "./components/Carousel/Carousel";
 
 
 const ApiPage = () => {
@@ -8,6 +9,7 @@ const ApiPage = () => {
     <ApiPageStyled>
       <NavBar/>
       <HeroApi/>
+      <Carousel/>
     </ApiPageStyled>
    );
 }
