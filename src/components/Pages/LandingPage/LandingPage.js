@@ -1,4 +1,5 @@
 import NavBar from "../../NavBar/NavBar";
+import Carousel from "../ApiPage/components/Carousel/Carousel";
 import Hero from "./components/Hero/Hero";
 import MyGoal from "./components/MyGoal/MyGoal";
 import OurOffer from "./components/OurOffer/OurOffer";
@@ -13,6 +14,7 @@ const LandingPage = () => {
       <Update/>
       <MyGoal/>
       <OurOffer/>
+      <Carousel/>
     </LandingStyled>
    );
 }

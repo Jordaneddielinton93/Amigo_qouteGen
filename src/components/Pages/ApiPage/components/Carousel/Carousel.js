@@ -3,7 +3,7 @@ import { CarouselStyle } from "./Carousel.style";
 
 const Carousel = () => {
 
-  let [posCounter,setPosCounter] = useState(1200)
+  let [posCounter,setPosCounter] = useState(-1200)
 
   useEffect(()=>{
 
