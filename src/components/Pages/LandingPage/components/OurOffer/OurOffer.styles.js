@@ -22,7 +22,9 @@ export const OurOfferStyled = styled.div`
     &--OurAimTitle{
       width: 100%;
       text-align: left;
-      margin:30px 0px
+      margin:30px 0px;
+      font-weight: 900;
+      text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 
     }
     &--Para{
