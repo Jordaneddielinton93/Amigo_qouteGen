@@ -40,7 +40,11 @@ Technologies Used
 
 
 These are my Low/Mid fedelity Wireframes.  
-Since i had a time limit i did not want to get hooked into doing wireframes for many days like i tend todo, so I spent most of the time building the site since things change while building. 
+Since i had a time limit i did not want to get hooked into doing wireframes for many days like i tend todo, so I spent most of the time building the site since things change while building.   
+
+Decided to try make my site as close to Amigos hero section but with my own nab links.  
+I also got user feedback from two Ux/Ui friend's on the layout and both agreed they liked it :)   
+
 <hr>
 <br>
 
@@ -52,3 +56,5 @@ I really enjoyed working on this project.
 Next time im going to try mongoDb Atlas, since i have been learning that and it seems very simple like firebase they now use cloud storage with async data
 
 # Author: Jordan Linton
+
+<img src="./src/components/images/userFeedback.png">
