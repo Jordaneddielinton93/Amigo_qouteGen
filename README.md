@@ -1,4 +1,6 @@
-# Quote Generator  
+<img src="./src/components/images/header.png" width="100%">  
+
+# Amigo Quotes Generator  
 # Link to the site https://amigo-quotes.netlify.app/
 ## About The Project
 <img src="./src/components/images/aboutProject.png">
