@@ -10,7 +10,7 @@ const OurOffer = () => {
         <SpanGreenText spanText="Daily Quota" Backcolor="white"/>
         </h1>
         <h1 className="OurOffer__Container--OurAimTitle">We aim to give you your daily dose of <br /> Quotes</h1>
-        <p className="OurOffer__Container--Para">Creating transparent shared information. We focus on nothing but the finer Quotes, because it’s what we know best. Technology now allows us to put the power back in the hands of people.</p>
+        <p className="OurOffer__Container--Para">Creating transparent shared information. We focus on nothing but the finer Quotes, because it’s what we know best. Technology now allows us to put the power back in the hands... <SpanGreenText spanText="finger's" Backcolor="white"/> of people.</p>
         
           <button className="OurOffer__Container--Button">
           <Link to="/Apis">
