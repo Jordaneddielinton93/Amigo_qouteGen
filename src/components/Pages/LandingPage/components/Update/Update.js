@@ -58,7 +58,7 @@ const Update = () => {
            
           </h1>
 
-          <h4 className="updateArea__Left--SubTitle">Why not check the Api Quotes page too on the navbar</h4>
+          <h4 className="updateArea__Left--SubTitle">Why not check the Api Quotes page too on the navbar that using Fetch & Aync Await</h4>
 
 
           <div className="updateArea__Left__container">
