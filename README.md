@@ -57,6 +57,19 @@ Firebase has recently upgraded their code to use a new layout so i had to google
 I really enjoyed working on this project.
 Next time im going to try mongoDb Atlas, since i have been learning that and it seems very simple like firebase they now use cloud storage with async data
 
+## Finished Hero Image  
+
+
+<img src="./src/components/images/endHeroSectionImg.png">
+
+## Finished Quotes Image  
+
+
+<img src="./src/components/images/endquotesSectionImg.png">
+
+
 # Author: Jordan Linton
+
+## User Feed Back
 
 <img src="./src/components/images/userFeedback.png">
