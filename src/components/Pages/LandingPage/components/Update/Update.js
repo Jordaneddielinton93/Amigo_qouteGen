@@ -5,11 +5,20 @@ import { UpdateStyled } from "./Update.style";
 
 const Update = () => {
 
-  const collections = collection(db, "qoutes");
+  // 0️⃣1️⃣2️⃣3️⃣ follow  the numbers starting from 0
 
+
+
+
+
+  const collections = collection(db, "qoutes");
+// get documents from database
   let [data,setdata]=useState([{qoutes:["Success Drives",<br/>, "Transformation"]}])
 
-  let [updateDb,setUpdateDb] = useState(0)
+  let [updateDb,setUpdateDb] = useState(0) // << updates the db when its statechanges
+
+
+  // added both text data and its id to the use stateabove from the function below
   useEffect(()=>{
     async function getListOfQouteS() {
       const response = await getDocs(collections);
@@ -21,16 +30,16 @@ const Update = () => {
     }
     getListOfQouteS()
   },[updateDb])
-
+// on render update the data useState with text and its id 0️⃣
 
 
   
   let newQuoteValue = useRef()
-
+// get the state of the users input and let them know if its wrong
   let [showUserTheError,setShowUserTheError] = useState("none")
 
   async function AddNewQuote(){
-
+    // if the value of the users input is smaller then 3 give error else add quote to db 3️⃣
     if(newQuoteValue.current.value.length<3){
       setShowUserTheError("flex")
     }else{
@@ -70,8 +79,9 @@ const Update = () => {
             placeholder="Type more then 3 characters and then refresh"
             className="updateArea__Left__container--input"
             type="text" />
-
-            <button onClick={AddNewQuote}
+            {/* added a new quote by getting input ref state and updating the db with updateDb usestate 2️⃣ */}
+            <button data-testid="callnewQuote"
+             onClick={AddNewQuote}
             className="updateArea__Left__container--buttom"
             >Add New Qoute</button>
 
@@ -80,13 +90,13 @@ const Update = () => {
 
         </section>
 
-        
+          {/* right side of screen show list from database 1️⃣*/}
         <section className="updateArea__Right">
           <aside className="updateArea__Right__Container">
             <ul className="updateArea__Right__Container__Ulist">
-              {data.map((list)=>{
-                return <li id={list.id}  className="updateArea__Right__Container__Ulist--Litem">
-                  <q>{list.qoutes}</q>
+              {data.map((list,index)=>{
+                return <li id={list.id} data-testid="listItem10" className="updateArea__Right__Container__Ulist--Litem">
+                  <q id={`${index}`}>{list.qoutes}</q>
                   </li>
               })}
             </ul>

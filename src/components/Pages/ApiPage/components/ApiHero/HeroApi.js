@@ -68,7 +68,7 @@ const HeroApi = () => {
             {textArr.map((text,index)=>{
              
               return index<10?(
-                <li key={index}
+                <li key={index} data-testid="listitemsMapped"
                 className="APIqoute">
                   <div>
                     <q>{text.text}</q>

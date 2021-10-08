@@ -16,7 +16,7 @@ const Hero = () => {
 
   
 
-  async function getNewQoute() {
+  async function getNewQuote() {
     // call the data from the collection from the db, map through it and set the new state to the returned arrayObj 2️⃣
     const response = await getDocs(collections);
     setdata(response.docs.map((data)=>{
@@ -38,7 +38,8 @@ const Hero = () => {
         </div>
 
 
-        <button onClick={getNewQoute} //*️⃣call the call api
+        <button onClick={getNewQuote} 
+        //*️⃣call the call api
         className="HeroCont--Button">Show New Quote Via Firebase </button>
       </div>
     </HeroStyled>
