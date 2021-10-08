@@ -37,8 +37,8 @@ Technologies Used
 <img src="./src/components/images/ReadMeWireframe2.svg">
 
 
-These were my Low/Mid fedelity Wireframes.  
-Since i had a time limit i  did not want to get hooked into doing wireframes for many days, so i spent most of the time building the site since things change while building. 
+These are my Low/Mid fedelity Wireframes.  
+Since i had a time limit i did not want to get hooked into doing wireframes for many days like i tend todo, so I spent most of the time building the site since things change while building. 
 <hr>
 <br>
 
@@ -47,6 +47,6 @@ There was alot of Problems when it came to the database i thought it would be a 
 Firebase has recently upgraded their code to use a new layout so i had to google search and trial and test untill i could get it working.
 
 I really enjoyed working on this project.
-Next time im going to try mongoDb Atlas since i have been learning that and it seem very simple like firebase they now use cloud storage with async data
+Next time im going to try mongoDb Atlas, since i have been learning that and it seems very simple like firebase they now use cloud storage with async data
 
 # Author: Jordan Linton
