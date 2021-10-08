@@ -65,7 +65,7 @@ position: relative;
 		align-self: center;
 		@media only screen and (max-width: 900px) {
 		width:100%;
-	}
+		}
 		&__List{
 			width: 95%;
 			height: 95%;

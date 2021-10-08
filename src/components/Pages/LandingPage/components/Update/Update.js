@@ -46,16 +46,16 @@ const Update = () => {
       <div className="updateArea">
         <section className="updateArea__Left">
 
-          <h4 className="updateArea__Left--SubTitle">Why Not Add your own Qoute?</h4>
+          <h4 className="updateArea__Left--SubTitle">Why Not Add your own Quote?</h4>
 
-          <h1 className="updateArea__Left--Title">The way that Qoutes change is <span className="span">
+          <h1 className="updateArea__Left--Title">The way that Quotes change is <span className="span">
               <span className="changing">changing </span> 
               <span className="greenline"></span>
            </span> 
            
           </h1>
 
-          <h4 className="updateArea__Left--SubTitle">make sure to refresh the page after adding the qoute to the database</h4>
+          <h4 className="updateArea__Left--SubTitle">make sure to refresh the page after adding the quote to the database</h4>
 
 
           <div className="updateArea__Left__container">

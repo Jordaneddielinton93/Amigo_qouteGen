@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const UpdateStyled = styled.main`
   width: 100%;
-  height: 600px;
+  min-height: 600px;
   max-width: 100%;
 
   & .updateArea{
@@ -24,7 +24,7 @@ export const UpdateStyled = styled.main`
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-      height: 100%;
+      height: 600px;
       width: 50%;
       text-align: left;
       @media only screen and (max-width: 1200px) {
@@ -33,6 +33,7 @@ export const UpdateStyled = styled.main`
       @media only screen and (max-width: 750px) {
         width: 95%;
         padding: 0%;
+        margin-bottom: 60px;
       }
       &--SubTitle{
         color:#187c8e ;
@@ -88,7 +89,7 @@ export const UpdateStyled = styled.main`
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100%;
+      height: 600px;
       width: 50%;
       @media only screen and (max-width: 750px) {
         width: 95%;
@@ -108,8 +109,32 @@ export const UpdateStyled = styled.main`
           &--Litem{
             border: thin solid #2FCDC9;
           }
+
+/* scrollbar color changer */
+          &::-webkit-scrollbar-track
+          {
+            box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            border-radius: 10px;
+            background-color: #F5F5F5;
+          }
+          &::-webkit-scrollbar
+          {
+            width: 12px;
+            background-color: #F5F5F5;
+          }
+          &::-webkit-scrollbar-thumb
+          {
+            border-radius: 10px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+            background-color: #2FCDC9;
+          }
         }
       }
     }
   }
+
+
+
+
+
 `
