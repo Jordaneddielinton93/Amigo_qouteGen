@@ -9,7 +9,7 @@
 ### As of the project I had to build a quote generator using either local storage , session storage or a database, then be able to add users own quote to it.   
 ### I decided to go with both database storage and local storage.
 ### one used for saving users data and the other for using an API since I did not want to save API data to the limited storage I decided to make two pages of content for them.
-### I roughly spend most of The day on the landing page with great success to each component, pretty much having most of the setup memorised untill i hit firebase but it was a great learning curve and remind that software is allway's upgrading so you never stop learning.
+### I roughly spend most of The day on the landing page with great success to each component, pretty much having most of the setup memorised untill i hit firebase but it was a great learning curve and reminder that software is allway's upgrading so you never stop learning.
 <hr>
 <br>
 Technologies Used
@@ -44,8 +44,8 @@ Technologies Used
 These are my Low/Mid fedelity Wireframes.  
 Since i had a time limit i did not want to get hooked into doing wireframes for many days like i tend todo, so I spent most of the time building the site since things change while building.   
 
-Decided to try make my site as close to Amigos hero section but with my own nab links.  
-I also got user feedback from two Ux/Ui friend's on the layout and both agreed they liked it :)   
+Decided to try make my site as close to Amigos hero section but with my own nav links.  
+I also got user feedback from two Ux/Ui friend's on the layout and they both agreed they liked it :)   
 
 <hr>
 <br>
